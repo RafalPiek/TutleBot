@@ -42,7 +42,7 @@ List the ready features here:
 ## Setup
 It is likely that the application will run on any system that has Windows and at least 10 MB of memory. 
 Installation: download the TutleBot folder.
-Open the folder and run the main.exe file.
+Open the folder and run the TubleBot.exe file.
 
 
 

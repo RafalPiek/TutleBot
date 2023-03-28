@@ -1,6 +1,4 @@
-
 import speech_recognition as sr
-import tutlesql as tsq
 import fspeech as fs
 r=sr.Recognizer()
 
@@ -23,13 +21,13 @@ def getText():
         except:
             return 0
 while True:
-    # txt=getText()
-    txt="bot"
+    txt=getText()
+    # txt="bot"
     
     if not txt==0 and fs.wake_up(txt)==1: 
         while True:
-            # txt=getText()
-            txt="Wyłącz się"
+            txt=getText()
+            # txt="Wyłącz się"
             # txt=str(input("Podaj komende test:"))
             if not txt==0 and fs.stop_listen(txt)==0:
 

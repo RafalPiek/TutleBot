@@ -26,14 +26,10 @@ def mow(text):
                     break
                 except:
                     pass
-            wttr=Wttr(text_table)
-            forecas=wttr.pl()
-            file=open("test.txt", "w+")
-            file.write(str(forecas))
-            file.close()
             
             try:      
-
+                wttr=Wttr(text_table)
+                forecas=wttr.pl()
                 if "jutro" in text.lower():
                     
 
